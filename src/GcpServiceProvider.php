@@ -23,6 +23,6 @@ class GcpServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadRoutesFrom(base_path("routes.php"));
+        $this->loadRoutesFrom(base_path("config/other/routes.php"));
     }
 }
